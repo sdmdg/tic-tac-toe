@@ -81,8 +81,8 @@ class tf_scan():
         self.app.update_board()
 
         if len(self.board.unavailable_pos) == 8:
-            show_msg(app=self.app, msg="Well, it's a drow. Good job. :)")
-            print("drow.")
+            show_msg(app=self.app, msg="Well, it's a draw. :)")
+            print("draw.")
 
 
 class Scanner(QThread):

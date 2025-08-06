@@ -13,5 +13,6 @@ echo Installing dependencies...
 echo .
 echo .
 echo .
+cls
 python main.py
 deactivate
